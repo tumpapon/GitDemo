@@ -1,5 +1,6 @@
-print"Hello"
+def isEven(n)
+	return true if n%2==0 else False
 
-print" Hahaha "
+x= int(input("Enter Number: "))
 
-print "Even" if x % z == 0 else "Odd"
+print "Even" if isEven(n) else "Odd"
