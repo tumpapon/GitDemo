@@ -4,3 +4,5 @@ def isEven(n)
 x= int(input("Enter Number: "))
 
 print "Even" if isEven(n) else "Odd"
+
+print"Test"
